@@ -69,6 +69,6 @@ public class Shampoo extends BaseEntity {
 
     @Override
     public String toString() {
-       return String.valueOf(System.out.printf("%s %s", this.brand, this.ingredients));
+       return String.valueOf(System.out.printf("%s %s %.2flv.", this.brand, this.size, this.price));
     }
 }
